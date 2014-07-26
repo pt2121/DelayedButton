@@ -3,7 +3,7 @@ DelayedButton
 
 A straightforward lib that helps create a custom button which is enabled after a specified period of time.
 
-Here's an example:
+To create a button which is enabled after 5 seconds:
 
 ```
 <com.pt2121.delayedbutton.DelayedButton
