@@ -10,9 +10,22 @@
     tools:context=".MyActivity">
 
     <com.pt2121.delayedbutton.DelayedButton
+        android:id="@+id/button"
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        custom:delay="5000"/>
+        android:enabled="false"
+        android:visibility="invisible"
+        custom:delay="500000"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Button2"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
